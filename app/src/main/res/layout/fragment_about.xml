@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:stretchColumns="0">
+
+            <TableRow>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="205dp"
+                    android:id="@+id/imageView"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/developers" />
+            </TableRow>
+
+            <TableRow android:layout_height="30dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-light"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:id="@+id/textView"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Ferdi Elik"
+                    android:textStyle="bold"
+                    android:textColor="#ff000000"
+                    android:textSize="17sp"/>
+            </TableRow>
+
+            <TableRow android:layout_height="30dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="ferdielik55@gmail.com"
+                    android:autoLink="email"
+                    android:id="@+id/textView3"
+                    android:textColor="#ff000000"
+                    android:textSize="15sp"
+                    android:layout_gravity="center_horizontal"
+                    android:fontFamily="sans-serif-light"
+                    android:layout_marginTop="30dp" />
+            </TableRow>
+
+            <TableRow android:layout_height="30dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Ramazan Demir"
+                    android:layout_marginLeft="3dp"
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold"
+                    android:textSize="17sp"
+                    android:textColor="#ff000000"
+                    android:id="@+id/textView4"
+                    android:layout_gravity="center_horizontal" />
+            </TableRow>
+
+            <TableRow android:layout_height="30dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="rdemir057@gmail.com"
+                    android:autoLink="email"
+                    android:textColor="#ff000000"
+                    android:textSize="15sp"
+                    android:fontFamily="sans-serif-light"
+                    android:id="@+id/textView6"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="30dp" />
+            </TableRow>
+
+            <TableRow android:layout_height="30dp">
+                <TextView
+                    android:id="@+id/textView19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/textView18"
+                    android:layout_alignStart="@+id/textView18"
+                    android:layout_below="@+id/textView18"
+                    android:fontFamily="sans-serif-light"
+                    android:text="© 2015"
+                    android:layout_marginTop="24dp"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@android:color/black"
+                    android:layout_gravity="center_horizontal" />
+
+            </TableRow>
+
+        </TableLayout>
+    </ScrollView>
+
+</RelativeLayout>

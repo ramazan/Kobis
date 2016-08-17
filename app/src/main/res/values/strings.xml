@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?><!--suppress ALL -->
+<resources>
+
+    <string name="app_name">Kobis</string>
+    <string name="drawer_open">Kocaeli Bisikletli Ulaşım Sistemi</string>
+
+    <string-array name="nav_drawer_items">
+        <item>İstasyonlar</item>
+        <item>Harita</item>
+        <item>Nasıl Kullanırım?</item>
+        <item>Ne Kadar Öderim?</item>
+        <item>Çağrı Merkezi</item>
+        <item>Hakkında</item>
+
+    </string-array>
+
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_stations</item>
+        <item>@drawable/map_world</item>
+        <item>@drawable/ic_delivery</item>
+        <item>@drawable/ic_price</item>
+        <item>@drawable/ic_call_center</item>
+        <item>@drawable/info_icon</item>
+    </array>
+
+    <string name="desc_list_item_icon">Item Icon</string>
+
+</resources>

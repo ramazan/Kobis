@@ -1,0 +1,15 @@
+# Android generated files #
+###########################
+.gradle
+local.properties
+build
+captures
+gradle/
+# OS generated files #
+######################
+.DS_Store
+
+# Intellij generated files #
+###########################
+*.iml
+.idea*

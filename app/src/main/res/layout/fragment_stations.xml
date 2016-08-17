@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?><!--suppress ALL -->
+<RelativeLayout android:id="@+id/fragment_stations"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ExpandableListView
+        android:id="@+id/exp_list"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginRight="7dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="48dp"
+        android:divider="@drawable/station_separator"
+        android:childDivider="@drawable/child_separator" />
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:layout_margin="7dp"
+        android:background="@drawable/shadow">
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="7dp"
+            android:text="Son Güncelleme : "
+            android:textColor="#ffff1723" />
+
+        <TextView
+            android:id="@+id/lastUpdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/textView14"
+            android:layout_toEndOf="@+id/textView14"
+            android:layout_toRightOf="@+id/textView14"
+            android:paddingLeft="10dp"
+            android:layout_marginLeft="115dp"
+            android:text="12.12.2015 34:12 "
+            android:textColor="#ffff1723"
+            android:layout_marginTop="7dp" />
+    </FrameLayout>
+
+
+
+</RelativeLayout>
